@@ -3,7 +3,7 @@ import 'dart:io';
 void main() {
   int x = int.parse(stdin.readLineSync()!);
   int z = int.parse(stdin.readLineSync()!);
-  while (z < x) {
+  while (z <=x) {
     z = int.parse(stdin.readLineSync()!);
   }
   int sum = 0;
